@@ -1,0 +1,17 @@
+<launch>
+
+  <!-- Navigation node -->
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+    <arg name="map_file" value="/home/sxp8070/map.yaml" />
+  </include>
+
+  <!-- Hack my robot main routine -->
+  <node pkg="hack_my_robot" type="hack_my_robot_node" name="hack_my_robot" output="screen" clear_params="true">
+    <param name="goal_frame_id" value="map"/>
+    <param name="odom_frame_id" value="odom"/>
+    <param name="base_frame_id" value="base_footprint"/>
+    <param name="addpose_topic" value="/addpose"/>
+    <param name="posearray_topic" value="/waypoints"/>
+  </node>
+
+</launch>
