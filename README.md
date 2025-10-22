@@ -107,7 +107,7 @@ The scenario and hints, evaluation criteria, and other guidelines for the final 
 #### The Scenario and Hints
 The Turtlebot used in this competition represents an autonomous bulldozer that follows an earthworks routine and performs grading on a construction site. The routine has four predefined waypoints, which are the corners of the earthworks area. The robot stays at each waypoint for a short time to avoid over-grading and material buildup. The operator, Bob, is in charge of monitoring the operation of the autonomous bulldozer to make sure that everything works as planned. Bob has an office on the construction site, near the bulldozer’s working area, where he has his computer to monitor the operation. He set up a network in his office using a wireless router to communicate with the bulldozer. His computer is connected to the wireless router via an ethernet cable, and the robot is connected to the router through a wireless connection (5GHz). The IT department of the project informed Bob that his Wi-Fi password is among the most common passwords; however, he did not want to change it, thinking that no one would try to connect it anyway. Bob’s computer also has password protection, and Bob chose a password that combines several personal elements to memorize it more easily (a list of possible personal elements will be provided at the beginning of the final round). Bob connects to the robot to give commands and receive data via secure shell (SSH). Bob saved his SSH credentials in a file on his computer; however, he found a way to make it more secure (the file will have a hint about it).
 #### Evaluation Criteria and Scores
-#### 1.	Is the team able to find different passwords required for having access to the robot?
+#### 1.	Is the team able to find different passwords required for having access to the robot? (Cumulative; max 25 points)
 The Wi-Fi password will be announced 20 minutes after the competition starts, and it will also be provided to any team that requests it before 20 minutes. The teams that can find the correct Wi-Fi password within the first 20 minutes of the competition will receive points for the first item of this criterion. The team will collect points if they can achieve the following:
 
   1.1) The team could find the Wi-Fi password within the first 20 minutes **(10 Points)**  
@@ -120,7 +120,7 @@ The Wi-Fi password will be announced 20 minutes after the competition starts, an
 
 This criterion includes only accessing the sensitive file stored in the robot. The teams are expected to implement some of the ideas they provided in response to Question 1 in the first round. (In the context of this competition, the sensitive file corresponds to a design file (.ifc format) that has information regarding the constructed building.)
 
-#### 3.	Is the team able to alter the predefined path the robot should follow?
+#### 3.	Is the team able to alter the predefined path the robot should follow? (Points for highest achieved criterion; max 20 points)
 
 Turtlebots utilize obstacle avoidance, using the on-board LiDAR sensor to be aware of their surroundings. The LiDAR sensor is located approximately at 20 cm height. The height of the human object is 15 cm, and the height of the excavator object is 25 cm. The teams are expected to implement some of the ideas they provided in response to Question 2 in the first round. The team will collect points if they can achieve either one of the following:
 
@@ -134,7 +134,7 @@ Turtlebots utilize obstacle avoidance, using the on-board LiDAR sensor to be awa
 
 The duration that the robot waits at each waypoint is critical since the increased duration would lead to over-grading and material buildup in the context of this competition’s scenario. Therefore, the increased duration of the robot’s waiting time will jeopardize the quality of the earthworks task and require rework. The teams are expected to implement some of the ideas they provided in response to Question 2 in the first round.
 
-#### 5.	Is the team able to compromise the availability of the robot? 
+#### 5.	Is the team able to compromise the availability of the robot? (Points for highest achieved criterion; max 10 points)
 
 The team will collect points if they can reduce the robot’s performance, cause interruptions in resource availability, or cause a total loss of availability. Please refer to the “2.3.3. Availability (A)” section of the [Common Vulnerability Scoring System (CVSS) v3.1 specification document](https://www.first.org/cvss/v3-1/cvss-v31-specification_r1.pdf) to see different levels of impact on availability. Different possible points based on the performance of the team are as follows:
 
