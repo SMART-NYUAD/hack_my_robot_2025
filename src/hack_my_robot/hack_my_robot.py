@@ -38,7 +38,7 @@ def start_scan_response():
             take_pic_srv = rospy.ServiceProxy('/image_saver/save', Emptysrv) # TAKE PICTURE SERVICE
             resp1 = take_pic_srv() # TAKE PICTURE SERVICE
         else:
-            rospy.loginfo("EXCAVATING! Duration: 4s")
+            rospy.loginfo("Maneuvering! Duration: 4s")
             rospy.sleep(4) # TODO
 
         rospy.loginfo("Service finished.")
