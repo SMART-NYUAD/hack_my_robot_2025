@@ -176,3 +176,25 @@ This criterion aims to evaluate the team’s ability to think “out of the box�
     
     •	5:00 - 6:00 p.m. (1 hour) - Poster presentations (10 mins per team) / judges' deliberations
 
+#### Additional Hints
+
+Bob is not very creative about the credentials. So, he kept his robot's username as "ubuntu". Also, he chose his username for his computer "smart_lab". 
+
+Bob came across the following comic while deciding on his computer’s password:
+
+![](https://imgs.xkcd.com/comics/password_strength.png)
+ 
+He thought he should choose his password long enough to make it harder to be cracked and easy to remember. So, he decided to use some personal keywords in his password instead of random words, and he created his password that is less than 16 characters. Following are some hints regarding Bob’s personal life:
+
+1.	Birth year: 1984
+2.	Mother’s name: jane
+3.	Cat’s name: fluffy
+4.	Favorite city: dubai
+5.	Childhood neighborhood name: soho
+6.	Favorite movie character: joker
+7.	Favorite dish: shawarma
+8.	Childhood friends' name: john
+9.	Favorite singer: shakira
+10.	Primary school teacher’s name: lisa
+
+
